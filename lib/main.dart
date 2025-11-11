@@ -1,6 +1,9 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:attendance_app/ui/home_screen.dart';
+import 'package:attendance_app/ui/absent/absent_screen.dart';
+import 'package:attendance_app/ui/attend/attend_screen.dart';
+import 'package:attendance_app/ui/attendance_history/attendance_history_screen.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -39,3 +42,4 @@ class TestApp extends StatelessWidget {
     );
   }
 }
+
